@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+function bookname(bname)
+{
+    if(window.XMLHttpRequest)
+    {
+        obj = new XMLHttpRequest();
+    }
+    else
+    {
+        obj = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    obj.onreadystatechange = function()
+    {
+        if(obj.readyState == 4 && obj.status == 200)
+        {
+            document.getElementById("mydiv").innerHTML = obj.responseText;
+        }
+    }
+    obj.open("GET","book.php?bn="+bname,true);
+    obj.send();
+}
+</script>
+</head>
+<body>
+<form>
+Select Your Class:
+<select name="bname">
+<option value="">Select Book</option>
+<option value="PHP">PHP</option>
+<option value="OS">OS</option>
+<option value="CPP">C++</option>
+<option value="Networking">Networking</option>
+</select>
+<br>
+<input type="button" value="Show Info" onclick="bookname(form.bname.value)"/>
+</form>
+<div id="mydiv"><h1>Your Book Details Will Be Displayed Here....</h1></div>
+</body>
+</html>

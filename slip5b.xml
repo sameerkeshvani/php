@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<studentresult>
+<s1>
+    <sno>1</sno>
+    <sname>Sameer</sname>
+    <standard>10</standard>
+    <marks>350</marks>
+    <percentage>80</percentage>
+</s1>
+<s2>
+    <sno>2</sno>
+    <sname>Sahil</sname>
+    <standard>9</standard>
+    <marks>400</marks>
+    <percentage>85</percentage>
+</s2>
+<s3>
+    <sno>3</sno>
+    <sname>Aman</sname>
+    <standard>8</standard>
+    <marks>450</marks>
+    <percentage>90</percentage>
+</s3>
+</studentresult>

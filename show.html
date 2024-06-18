@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+if(str.length==0)
+{
+    document.getElementById("mydiv").innerHTML="";
+}
+function show(str)
+{
+    if(window.XMLHttpRequest)
+    {
+        obj = new XMLHttpRequest;
+    }
+    else
+    {
+        obj = new ActiveXobjec("Microsoft.XMLHTTP");
+    }
+    obj.onreadystatechange=function()
+    {
+        if(obj.readyState==4 && obj.status==200)
+        {
+            document.getElementById("mydiv").innerHTML=obj.responseText;
+        }
+    }
+    obj.open("GET","show.php?q="+str,true);
+    obj.send();
+}
+</script>
+</head>
+<body>
+<form>
+Search<input type="text" name="str" onkeyup="show(form.str.value)">
+<div id="mydiv">
+</div>
+</form>
+</body>
+</html>

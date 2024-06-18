@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<student>
+<s1>
+    <roll_no>50</roll_no>
+    <name>Sameer</name>
+    <address>Vapi</address>
+    <college>SSR ACS</college>
+    <course>BBA CA</course>
+</s1>
+<s2>
+    <roll_no>60</roll_no>
+    <name>Samrat</name>
+    <address>Khanvel</address>
+    <college>SSR Education</college>
+    <course>B. Ed.</course>
+</s2>
+<s3>
+    <roll_no>55</roll_no>
+    <name>Sahil</name>
+    <address>Sanjan</address>
+    <college>SSR Pharmacy</college>
+    <course>B. Pharmacy</course>
+</s3>
+<s4>
+    <roll_no>53</roll_no>
+    <name>Sohail</name>
+    <address>Vapi</address>
+    <college>SSR ACS</college>
+    <course>BBA CA</course>
+</s4>
+</student>

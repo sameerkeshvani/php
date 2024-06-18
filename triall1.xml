@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<bookstore>
+    <books>
+        <php>
+            <title1>Programming PHP</title1>
+            <publication>O'Relly</publication>
+            <price>800</price>
+        </php>
+        <php>
+            <title1>Beginners PHP</title1>
+            <publication>WROX</publication>
+            <price>900</price>
+        </php>
+    </books>
+</bookstore>

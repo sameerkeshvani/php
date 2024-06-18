@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<book>
+<b1 id="101">
+    <bname>Wings Of Fire</bname>
+    <author>Abdul Kalam</author>
+    <year>1998</year>
+</b1>
+<b2 id="102">
+    <bname>Power Of Truth</bname>
+    <author>M.K. Gandhi</author>
+    <year>1970</year>
+</b2>
+</book>
